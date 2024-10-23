@@ -5,6 +5,7 @@ import './App.css'
 
 import Hi from './Components/HI'
 import Name from './Components/Name'
+import Emoji from './Components/Emoji'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -31,6 +32,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <Hi></Hi><Name name={"bruce"}></Name>
+      <Emoji></Emoji>
     </>
   )
 }
